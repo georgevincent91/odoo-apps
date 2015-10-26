@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vim:fdn=3:
+-->
+<openerp>
+    <data>
+    	<!-- Add js and css files -->
+        <template id="assets_backend" name="hide_left_panel assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/hide_left_panel/static/src/css/left_panel.css"/>
+                <script type="text/javascript" src="/hide_left_panel/static/src/js/left_panel.js"></script>
+            </xpath>
+        </template>
+        
+        <template id="toggle_fold" name="Toggle Fold Icon" inherit_id="web.webclient_bootstrap">
+        	<xpath expr="//td[@class='oe_leftbar']" position="before">
+        		<td class="hide_left_panel_nav"><img t-att-src="'/hide_left_panel/static/src/img/hide_left_panel_line.png'"/></td>
+        		<td class="show_left_panel_nav"><img t-att-src="'/hide_left_panel/static/src/img/show_left_panel_line.png'"/></td>
+        		<td class="hide_panel_nav"><img t-att-src="'/hide_left_panel/static/src/img/hide_panel.png'"/></td>
+        		<td class="show_panel_nav"><img t-att-src="'/hide_left_panel/static/src/img/show_panel.png'"/></td>
+        	</xpath>
+        </template>
+        
+    </data>
+</openerp>
