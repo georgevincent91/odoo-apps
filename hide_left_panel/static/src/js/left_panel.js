@@ -1,4 +1,4 @@
-openerp.web_left_panel = function(instance) {
+openerp.hide_left_panel = function(instance) {
 	instance.web.WebClient.include({
 		show_application: function() {
 			var self = this;
