@@ -22,17 +22,17 @@
 {
     "name": "Hide Left Navigation Panel For Full Screen View",
     "version": "1.0",
-    "author": "Brand Equity Solutions.",
+    "author": "IFenSys Software Solutions Pvt Ltd",
     "website": "http://erp.besplatform.com/",
     "version": "1.0",
     "catagory": "Tools",
     "complexity": "easy",
     "summary": "Odoo Full screen View by hiding left navigation panel",
     "description": """
-            This module enables the toggle button at the side of left navigation(sub menus) to hide and show full screen.
+            This module enables the toggle button at the side of left navigation(sub menus) to hide and show navigation menus.
     """,
     "depends": ["web"],
-    "data": ["views/web_left_panel.xml"],
+    "data": ["views/hide_left_panel.xml"],
     "installable": True,
     "auto_install": False
 }
