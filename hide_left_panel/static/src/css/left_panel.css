@@ -1,0 +1,24 @@
+/* Custom style for left navigation  */
+
+.hide_left_panel_nav img{
+	width: 5px;
+	height:1000px;
+}
+
+.show_left_panel_nav img{
+	width: 5px;
+	height:1000px;
+}
+
+.hide_panel_nav{
+	width: 5px;
+	height:1000px;
+	
+}
+
+.show_panel_nav{
+	width: 5px;
+	height:1000px;
+}
+
+
